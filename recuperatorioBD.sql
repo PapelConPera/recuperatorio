@@ -38,3 +38,15 @@ FROM film p JOIN inventory i ON p.film_id = i.film_id
 JOIN rental r ON i.inventory_id = r.inventory_id
 GROUP BY p.film_id
 ORDER BY alquileres DESC LIMIT 1 OFFSET 2;
+
+PRUEBA 2
+
+1-
+SELECT department_name
+FROM departments
+ORDER BY department_name ASC;
+2-
+SELECT DISTINCT salary 
+FROM employees
+ORDER BY salary DESC;
+3-
